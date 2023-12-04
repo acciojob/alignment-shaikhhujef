@@ -1,37 +1,64 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, intial-scale=1.0">
-	<title>HTML Assignment 3</title>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Assignment 3</title>
+    
 </head>
-
 <body>
-	<h1>HTML Assignment 3</h1>
-	<table id="table-1">
-		<tr id="t11">
-			<td>left</td>
-			<td id="center">center</td>
-			<td id="right">right</td>
-		</tr>
-		<tr id="t12">
-			<td>left</td>
-			<td id="center">center</td>
-			<td id="right">right</td>
-		</tr>
-		<tr id="t13">
-			<td>left</td>
-			<td id="center">center</td>
-			<td id="right">right</td>
-		</tr>
-	</table>
-	
-    <script type="text/javascript" src="./script.js">
-</script>
+
+    <h1>HTML Assignment #3</h1>
+
+    <!-- Table 1 -->
+    <table id="table-1" class="middle">
+        <tr>
+            <td id="t11">Row 1, Col 1</td>
+            <td id="t12">Row 1, Col 2</td>
+            <td id="t13" class="center right">Row 1, Col 3</td>
+        </tr>
+        <tr>
+            <td id="t11">Row 2, Col 1</td>
+            <td id="t12">Row 2, Col 2</td>
+            <td id="t13" class="center right">Row 2, Col 3</td>
+        </tr>
+        <tr>
+            <td id="t11">Row 3, Col 1</td>
+            <td id="t12">Row 3, Col 2</td>
+            <td id="t13" class="center right">Row 3, Col 3</td>
+        </tr>
+    </table>
+
+    <!-- Table 2 -->
+    <table id="table-2" class="middle">
+        <tr>
+            <td id="t21" colspan="6" class="center">Row 1, Col 1 to 6</td>
+        </tr>
+        <tr>
+            <td id="t11">Row 2, Col 1</td>
+            <td id="t12">Row 2, Col 2</td>
+            <td id="t13">Row 2, Col 3</td>
+            <td id="t13">Row 2, Col 4</td>
+            <td id="t13">Row 2, Col 5</td>
+            <td id="t13">Row 2, Col 6</td>
+        </tr>
+        <!-- Add more rows as needed -->
+    </table>
+
+    <!-- Table 3 -->
+    <table id="table-3" class="middle">
+        <tr class="green">
+            <td id="t-image" colspan="2" class="center">Green Row</td>
+        </tr>
+        <tr>
+            <td><img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2013_FallP3/Luthra%20Portfolio/images-1.jpeg" alt="Your Image" style="width: 100%;"></td>
+            <td class="blue">Image Cell</td>
+        </tr>
+        <tr class="blue">
+            <td id="t-image" colspan="2" class="center">Blue Row</td>
+        </tr>
+    </table>
 
 </body>
-
 </html>
+
